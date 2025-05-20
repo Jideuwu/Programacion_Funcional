@@ -36,6 +36,8 @@ Carreras = [
     "Lic. en Informática"
 ]
 
+#JIDE ESTUVO AQUI
+
 def guardar():
     with open(Archivo, "wb") as Lista:
         pickle.dump((estudiantes, matricula_actual), Lista)
